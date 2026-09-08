@@ -1,0 +1,91 @@
+Detecting compiler hash for triplet x64-mingw-static...
+Compiler found: C:/msys64/ucrt64/bin/x86_64-w64-mingw32-g++.exe
+The following packages are already installed:
+    benchmark:x64-mingw-static@1.9.5
+  * boost-cmake:x64-mingw-static@1.92.0
+  * boost-config:x64-mingw-static@1.92.0
+  * boost-headers:x64-mingw-static@1.92.0
+    boost-mp11:x64-mingw-static@1.92.0
+  * boost-uninstall:x64-mingw-static@1.92.0
+    catch2:x64-mingw-static@3.16.0
+    fmt:x64-mingw-static@12.2.0#1
+    gsl-lite:x64-mingw-static@1.1.1
+    gtest:x64-mingw-static@1.18.0
+    magic-enum:x64-mingw-static@0.9.8
+    range-v3:x64-mingw-static@0.12.0#4
+  * vcpkg-boost:x64-mingw-static@2026-08-21
+  * vcpkg-cmake:x64-mingw-static@2025-08-07
+  * vcpkg-cmake-config:x64-mingw-static@2026-07-21
+benchmark provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(benchmark CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE benchmark::benchmark benchmark::benchmark_main)
+
+benchmark provides pkg-config modules:
+
+  # Google microbenchmark framework
+  benchmark
+
+  # Google microbenchmark framework (with main() function)
+  benchmark_main
+
+boost-mp11 is compatible with built-in CMake targets of FindBoost.cmake:
+
+    find_package(Boost REQUIRED COMPONENTS mp11)
+    target_link_libraries(main PRIVATE Boost::mp11)
+
+or the generated cmake configs via:
+
+    find_package(boost_mp11 REQUIRED CONFIG)
+    target_link_libraries(main PRIVATE Boost::mp11)
+
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+  # A modern, C++-native test framework for C++14 and above (links in default main)
+  catch2-with-main
+
+  # A modern, C++-native, test framework for C++14 and above
+  catch2
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+gsl-lite provides CMake targets:
+
+  find_package(gsl-lite CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE gsl-lite::gsl-lite)
+
+The package gtest is compatible with built-in CMake targets:
+
+    enable_testing()
+    
+    find_package(GTest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
+    
+    add_test(AllTestsInMain main)
+
+magic-enum provides CMake targets:
+
+    find_package(magic_enum CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE magic_enum::magic_enum)
+
+range-v3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(range-v3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE range-v3::meta range-v3::concepts range-v3::range-v3)
+
+All requested installations completed successfully in: 702 us

@@ -1,0 +1,19 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "531ee856196705732c93901e5c600bb40c44c961bd41e7f13316b68147846e4ab75cde82960dddbc6ab69e819f462b183699fd4fc779cf7be94cbec4997dd566"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "git+https://github.com/gsl-lite/gsl-lite@v1.1.1",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "gsl-lite/gsl-lite"
+}
+  ]
+}

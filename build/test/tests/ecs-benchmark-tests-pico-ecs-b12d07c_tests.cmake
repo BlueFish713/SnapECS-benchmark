@@ -1,0 +1,5 @@
+add_test( [==[Scenario: Test Application, Update System for pico_ecs]==] C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests-pico-ecs.exe [==[Scenario: Test Application\, Update System for pico_ecs]==]  )
+set_tests_properties( [==[Scenario: Test Application, Update System for pico_ecs]==] PROPERTIES WORKING_DIRECTORY C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests SKIP_RETURN_CODE 4)
+add_test( [==[Test EntityFactory for pico_ecs - ecs::benchmarks::pico_ecs::entities::EntityFactory]==] C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests-pico-ecs.exe [==[Test EntityFactory for pico_ecs - ecs::benchmarks::pico_ecs::entities::EntityFactory]==]  )
+set_tests_properties( [==[Test EntityFactory for pico_ecs - ecs::benchmarks::pico_ecs::entities::EntityFactory]==] PROPERTIES WORKING_DIRECTORY C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests SKIP_RETURN_CODE 4)
+include("C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/ecs-benchmark-tests-pico-ecs-b12d07c_test-list.cmake")

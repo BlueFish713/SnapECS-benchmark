@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/CMakeFiles/entityx-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/CMakeFiles/entityx-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/CMakeFiles/(CONFIG)/entityx-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entityx-subbuild/entityx-populate-prefix/src/entityx-populate-stamp/(CONFIG)/entityx-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"entityx-populate"
+		],
+		"name" : "entityx-populate"
+	}
+}

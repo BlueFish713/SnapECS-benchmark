@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: C:/dev/Workspace/Cpp/ecs_benchmark2/benchmark
+# Build directory: C:/dev/Workspace/Cpp/ecs_benchmark2/build/benchmark
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("benchmarks")
+subdirs("benchmarks/entt-entities")
+subdirs("benchmarks/entt")
+subdirs("benchmarks/entt-extended")
+subdirs("benchmarks/entityx-entities")
+subdirs("benchmarks/entityx")
+subdirs("benchmarks/entityx-extended")
+subdirs("benchmarks/ginseng-entities")
+subdirs("benchmarks/ginseng")
+subdirs("benchmarks/ginseng-extended")
+subdirs("benchmarks/mustache-entities")
+subdirs("benchmarks/mustache")
+subdirs("benchmarks/mustache-extended")
+subdirs("benchmarks/openecs-entities")
+subdirs("benchmarks/openecs")
+subdirs("benchmarks/openecs-extended")
+subdirs("benchmarks/flecs-entities")
+subdirs("benchmarks/flecs")
+subdirs("benchmarks/flecs-extended")
+subdirs("benchmarks/pico-ecs-entities")
+subdirs("benchmarks/pico-ecs")
+subdirs("benchmarks/pico-ecs-extended")
+subdirs("benchmarks/gaia-ecs-entities")
+subdirs("benchmarks/gaia-ecs")
+subdirs("benchmarks/gaia-ecs-extended")
+subdirs("benchmarks/snapecs-entities")
+subdirs("benchmarks/snapecs")
+subdirs("benchmarks/snapecs-extended")
+subdirs("benchmarks/oop")

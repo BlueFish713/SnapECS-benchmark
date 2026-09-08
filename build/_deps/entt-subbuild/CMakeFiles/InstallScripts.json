@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

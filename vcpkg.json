@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "ecs-benchmark",
+  "version-string": "7.2.0",
+  "description": "Benchmarks of common ECS (Entity-Component-System)-Frameworks in C++ (or C)",
+  "dependencies": [
+    "benchmark",
+    "boost-mp11",
+    "catch2",
+    "fmt",
+    "gsl-lite",
+    "gtest",
+    "magic-enum",
+    "range-v3"
+  ]
+}

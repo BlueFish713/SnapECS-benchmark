@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/CMakeFiles/gaia-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/CMakeFiles/gaia-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/CMakeFiles/(CONFIG)/gaia-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/src/gaia-populate-stamp/(CONFIG)/gaia-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gaia-populate"
+		],
+		"name" : "gaia-populate"
+	}
+}

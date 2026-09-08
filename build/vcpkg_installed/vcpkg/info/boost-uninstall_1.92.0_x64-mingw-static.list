@@ -1,0 +1,7 @@
+x64-mingw-static/
+x64-mingw-static/share/
+x64-mingw-static/share/boost-uninstall/
+x64-mingw-static/share/boost-uninstall/vcpkg.spdx.json
+x64-mingw-static/share/boost-uninstall/vcpkg_abi_info.txt
+x64-mingw-static/share/boost/
+x64-mingw-static/share/boost/vcpkg-cmake-wrapper.cmake

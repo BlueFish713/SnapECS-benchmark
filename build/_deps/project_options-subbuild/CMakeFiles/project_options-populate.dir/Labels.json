@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/CMakeFiles/project_options-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/CMakeFiles/project_options-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/CMakeFiles/(CONFIG)/project_options-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/project_options-subbuild/project_options-populate-prefix/src/project_options-populate-stamp/(CONFIG)/project_options-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_options-populate"
+		],
+		"name" : "project_options-populate"
+	}
+}

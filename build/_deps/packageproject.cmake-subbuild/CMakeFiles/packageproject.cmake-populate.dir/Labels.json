@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/CMakeFiles/(CONFIG)/packageproject.cmake-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/(CONFIG)/packageproject.cmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"packageproject.cmake-populate"
+		],
+		"name" : "packageproject.cmake-populate"
+	}
+}

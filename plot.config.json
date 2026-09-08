@@ -1,0 +1,628 @@
+{
+  "data": {
+    "ComplexSystemsFirstUpdateMixedEntities": {
+      "index": "First update {:>5s} mixed entities with 7 systems",
+      "title": "First update (7 systems, mixed components)",
+      "regex": "^BM_ComplexSystemsFirstUpdateMixedEntities\\/[0-9]+\\/iterations:3$",
+      "header": "First update: cold view build and one system-logic pass (7 systems, mixed components)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for first update"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "ComplexSystemsFirstUpdate": {
+      "index": "First update {:>5s} entities with 7 systems",
+      "title": "First update (7 systems)",
+      "regex": "^BM_ComplexSystemsFirstUpdate\\/[0-9]+\\/iterations:3$",
+      "header": "First update: cold view build and one system-logic pass (7 systems)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for first update"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "SystemsFirstUpdateMixedEntities": {
+      "index": "First update {:>5s} mixed entities with 2 systems",
+      "title": "First update (2 systems, mixed components)",
+      "regex": "^BM_SystemsFirstUpdateMixedEntities\\/[0-9]+\\/iterations:3$",
+      "header": "First update: cold view build and one system-logic pass (2 systems, mixed components)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for first update"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "SystemsFirstUpdate": {
+      "index": "First update {:>5s} entities with 2 systems",
+      "title": "First update (2 systems)",
+      "regex": "^BM_SystemsFirstUpdate\\/[0-9]+\\/iterations:3$",
+      "header": "First update: cold view build and one system-logic pass (2 systems)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for first update"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "ComplexSystemsUpdateMixedEntities": {
+      "index": "Steady update {:>5s} entities with 7 systems",
+      "title": "Steady update (7 systems, mixed components)",
+      "regex": "^BM_(.*_)?ComplexSystemsUpdateMixedEntities\\/[0-9]+$",
+      "header": "Steady update after one untimed warm-up (7 systems, mixed components)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "ComplexSystemsUpdate": {
+      "index": "Steady update {:>5s} entities with 7 systems",
+      "title": "Steady update (7 systems)",
+      "regex": "^BM_(.*_)?ComplexSystemsUpdate\\/[0-9]+$",
+      "header": "Steady update after one untimed warm-up (7 systems)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "SystemsUpdateMixedEntities": {
+      "index": "Steady update {:>5s} entities with 2 systems",
+      "title": "Steady update (2 systems, mixed components)",
+      "regex": "^BM_(.*_)?SystemsUpdateMixedEntities\\/[0-9]+$",
+      "header": "Steady update after one untimed warm-up (2 systems, mixed components)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "SystemsUpdate": {
+      "index": "Steady update {:>5s} entities with 2 systems",
+      "title": "Steady update (2 systems)",
+      "regex": "^BM_(.*_)?SystemsUpdate\\/[0-9]+$",
+      "header": "Steady update after one untimed warm-up (2 systems)",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "CreateEntitiesInBulk": {
+      "index": "Create {:>5s} entities with two components at once",
+      "title": "Create entities at once",
+      "regex": "^BM_(.*_)?CreateEntitiesInBulk\\/[0-9]+$",
+      "header": "Create entities at once",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "CreateEntities": {
+      "index": "Create {:>5s} entities with two Components",
+      "title": "Create entities",
+      "regex": "^BM_(.*_)?CreateEntities\\/[0-9]+$",
+      "header": "Create entities",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "CreateEmptyEntitiesInBulk": {
+      "index": "Create {:>5s} (empty) entities at once",
+      "title": "Create (empty) entities at once",
+      "regex": "^BM_(.*_)?CreateEmptyEntitiesInBulk\\/[0-9]+$",
+      "header": "Create empty entities at once",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "CreateNoEntities": {
+      "index": "Create No entities",
+      "title": "Create No entities",
+      "regex": "^BM_(.*_)?CreateNoEntities$",
+      "header": "Create No entities",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "CreateEmptyEntities": {
+      "index": "Create {:>5s} (empty) entities",
+      "title": "Create (empty) entities",
+      "regex": "^BM_(.*_)?CreateEmptyEntities\\/",
+      "header": "Create empty entities",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "DestroyEntitiesInBulk": {
+      "index": "Destroy {:>5s} entities with two components at once",
+      "title": "Destroy entities at once",
+      "regex": "^BM_(.*_)?DestroyEntitiesInBulk\\/",
+      "header": "Destroy entities at once",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "DestroyEntities": {
+      "index": "Destroy {:>5s} entities with two components",
+      "title": "Destroy entities",
+      "regex": "^BM_(.*_)?DestroyEntities\\/[0-9]+$",
+      "header": "Destroy entities",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "UnpackNoComponent": {
+      "index": "Get No component in {:>5s} entities",
+      "title": "Get No component from Entity",
+      "regex": "^BM_(.*_)?UnpackNoComponent\\/[0-9]+$",
+      "header": "Get No component from Entity",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "UnpackOneComponent": {
+      "index": "Unpack one component in {:>5s} entities",
+      "title": "Get one component from Entity",
+      "regex": "^BM_(.*_)?UnpackOneComponent\\/[0-9]+$",
+      "header": "Get one (non-const) component from Entity",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "UnpackTwoComponentsFromMixedEntities": {
+      "index": "Unpack two components in {:>5s} entities",
+      "title": "Get two components from entity",
+      "regex": "^BM_(.*_)?UnpackTwoComponentsFromMixedEntities\\/[0-9]+$",
+      "header": "Get two components from entity",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "UnpackTwoComponents": {
+      "index": "Unpack two components in {:>5s} entities",
+      "title": "Get two components from entity",
+      "regex": "^BM_(.*_)?UnpackTwoComponents\\/[0-9]+$",
+      "header": "Get two components from entity",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "UnpackThreeComponentsFromMixedEntities": {
+      "index": "Unpack three components in {:>5s} entities",
+      "title": "Get three components from Entity",
+      "regex": "^BM_(.*_)?UnpackThreeComponentsFromMixedEntities\\/[0-9]+$",
+      "header": "Get three components from entity",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "UnpackThreeComponents": {
+      "index": "Unpack three components in {:>5s} entities",
+      "title": "Get three components from Entity",
+      "regex": "^BM_(.*_)?UnpackThreeComponents\\/[0-9]+$",
+      "header": "Get three components from entity",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "RemoveAddComponent": {
+      "index": "Remove and Add a Component in {:>5s} entities",
+      "title": "Remove and add component from Entity",
+      "regex": "^BM_(.*_)?RemoveAddComponent\\/[0-9]+$",
+      "header": "Remove and add component",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "AddComponent": {
+      "index": "Add a Component in {:>5s} entities",
+      "title": "Add component from Entity",
+      "regex": "^BM_(.*_)?AddComponent\\/[0-9]+$",
+      "header": "Add component",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "IterateSingleComponent": {
+      "index": "Iterate over {:>5s} entities with one component",
+      "title": "Iterate over entities with one component",
+      "regex": "^BM_(.*_)?IterateSingleComponent\\/[0-9]+$",
+      "header": "Iterate over entities with one component",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "IterateTwoComponents": {
+      "index": "Iterate over {:>5s} entities with two components",
+      "title": "Iterate over entities with two components",
+      "regex": "^BM_(.*_)?IterateTwoComponents\\/[0-9]+$",
+      "header": "Iterate over entities with two components",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "IterateThreeComponentsWithMixedEntities": {
+      "index": "Iterate over {:>5s} entities with three components",
+      "title": "Iterate over entities with three components",
+      "regex": "^BM_(.*_)?IterateThreeComponentsWithMixedEntities\\/[0-9]+$",
+      "header": "Iterate over entities with three components",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    },
+    "IterateThreeComponents": {
+      "index": "Iterate over {:>5s} entities with three components",
+      "title": "Iterate over entities with three components",
+      "regex": "^BM_(.*_)?IterateThreeComponents\\/[0-9]+$",
+      "header": "Iterate over entities with three components",
+      "line": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time cost per entity"
+      },
+      "line2": {
+        "xaxis_title": "Entities",
+        "yaxis_title": "Time for all entities"
+      },
+      "histogram": {
+        "xaxis_title": "Entities (avg)",
+        "yaxis_title": "Time cost per entity"
+      }
+    }
+  },
+  "frameworks": {
+    "entityx": {
+      "name": "EntityX",
+      "author": "@alecthomas",
+      "description": "Entity Component Systems (ECS) are a form of decomposition that completely decouples entity logic and data from the entity \"objects\" themselves. The Evolve your Hierarchy article provides a solid overview of EC systems and why you should use them.",
+      "version": "1.1.2 (Apr 2023)",
+      "link": "https://github.com/alecthomas/entityx",
+      "color": "#669999"
+    },
+    "entt": {
+      "name": "EnTT",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "color": "#0033cc"
+    },
+    "entt (runtime)": {
+      "name": "EnTT (runtime)",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "skip_candidate": true,
+      "color": "#66ccff"
+    },
+    "entt (group)": {
+      "name": "EnTT (group)",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "skip_candidate": true,
+      "color": "#0099ff"
+    },
+    "entt (group, non-owning)": {
+      "name": "EnTT (non-owning group)",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "skip_candidate": true,
+      "color": "#00ccff"
+    },
+    "entt (group, full-owning)": {
+      "name": "EnTT (full-owning group)",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "skip_candidate": true,
+      "color": "#0099cc"
+    },
+    "entt (group, partial-owning)": {
+      "name": "EnTT (partial-owning group)",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "skip_candidate": true,
+      "color": "#3366cc"
+    },
+    "entt (stable)": {
+      "name": "EnTT (stable)",
+      "author": "@skypjack",
+      "description": "EnTT is a header-only, tiny and easy to use library for game programming and much more written in modern C++.",
+      "version": "v3.13.2",
+      "link": "https://github.com/skypjack/entt",
+      "skip_candidate": true,
+      "color": "#3994d1"
+    },
+    "ginseng": {
+      "name": "Ginseng",
+      "author": "@apples",
+      "description": "Ginseng is an entity-component-system (ECS) library designed for use in games.\n\nThe main advantage over similar libraries is that the component types do not need to be listed or registered. Component types are detected dynamically.\n\nAny function-like object can be used as a system. The function's parameters are used to determine the required components.",
+      "version": "1.1 (Dec 2021)",
+      "link": "https://github.com/apples/ginseng",
+      "color": "#9900ff"
+    },
+    "openecs": {
+      "name": "OpenEcs",
+      "author": "@Gronis",
+      "description": "Open Ecs is an Entity Component System that uses metaprogramming, cache coherency, and other useful tricks to maximize performance and configurability. It is written in c++11 without further dependencies.",
+      "version": "0.1.101 (Apr 2017)",
+      "link": "https://github.com/Gronis/OpenEcs",
+      "skip_candidate": true,
+      "color": "#ff6666"
+    },
+    "flecs": {
+      "name": "Flecs",
+      "author": "@SanderMertens",
+      "description": "Flecs is a fast and lightweight Entity Component System that lets you build games and simulations with millions of entities.",
+      "version": "v4.0.1",
+      "link": "https://github.com/SanderMertens/flecs",
+      "color": "#ff3300"
+    },
+    "pico_ecs": {
+      "name": "pico_ecs",
+      "author": "@empyreanx",
+      "description": "A collection of cross-platform single header libraries written in C. Pure and simple ECS.",
+      "version": "2.3 (Sep 2023)",
+      "link": "https://github.com/empyreanx/pico_headers",
+      "color": "#ff9900"
+    },
+    "gaia-ecs": {
+      "name": "gaia-ecs",
+      "author": "@richardbiely",
+      "description": "Gaia-ECS is a fast and easy-to-use ECS framework.",
+      "version": "v0.8.6",
+      "link": "https://github.com/richardbiely/gaia-ecs",
+      "color": "#33a02c"
+    },
+    "gaia-ecs (SoA)": {
+      "name": "gaia-ecs (SoA)",
+      "author": "@richardbiely",
+      "description": "Gaia-ECS is a fast and easy-to-use ECS framework.",
+      "version": "v0.8.6",
+      "link": "https://github.com/richardbiely/gaia-ecs",
+      "skip_candidate": true,
+      "color": "#b2df8a"
+    },
+    "snapecs-indexed": {
+      "name": "SnapECS (Indexed)",
+      "description": "SnapECS using IndexedComponent storage for data components and TagComponent storage for empty components.",
+      "color": "#ff69b4"
+    },
+    "snapecs-cached": {
+      "name": "SnapECS (Cached)",
+      "description": "SnapECS using CachedComponent storage for data components and TagComponent storage for empty components.",
+      "color": "#ffd700"
+    },
+    "oop": {
+      "name": "OOP",
+      "description": "Simple OOP Solution.",
+      "skip_candidate": true,
+      "color": "#ffff00"
+    }
+  }
+}

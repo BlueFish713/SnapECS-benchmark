@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/CMakeFiles/mustache-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/CMakeFiles/mustache-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/CMakeFiles/(CONFIG)/mustache-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/mustache-subbuild/mustache-populate-prefix/src/mustache-populate-stamp/(CONFIG)/mustache-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mustache-populate"
+		],
+		"name" : "mustache-populate"
+	}
+}

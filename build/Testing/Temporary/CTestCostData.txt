@@ -1,0 +1,20 @@
+Scenario: Test Application, Update System for entityx 3 0.0109408
+Scenario: Test Application, Update System for entt 3 0.010891
+Scenario: Test Application, Update System for gaia-ecs 3 0.0109494
+Scenario: Test Application, Update System for ginseng 3 0.0112918
+Scenario: Test Application, Update System for mustache 3 0.0108266
+SnapECS application updates position 4 0.0083036
+SnapECS creates supported entity shapes 4 0.00882312
+SnapECS manipulates indexed components and tags 4 0.0076704
+SnapECS views match one two and three components 4 0.00713045
+Test EntityFactory for entityx - ecs::benchmarks::entityx::entities::EntityFactory 3 0.010551
+Test EntityFactory for entt - ecs::benchmarks::entt::entities::EntityFactory 3 0.011204
+Test EntityFactory for gaia-ecs - ecs::benchmarks::gaia_ecs::entities::EntityFactory 3 0.0113658
+Test HeroMonsterEntityFactory for entityx - ecs::benchmarks::entityx::entities::HeroMonsterEntityFactory 3 0.0113593
+Test HeroMonsterEntityFactory for entt - ecs::benchmarks::entt::entities::HeroMonsterEntityFactory 3 0.0110806
+Test HeroMonsterEntityFactory for gaia-ecs - ecs::benchmarks::gaia_ecs::entities::HeroMonsterEntityFactory 3 0.0117895
+Scenario: Test Application, Update System for flecs 3 0.0193786
+Scenario: Test Application, Update System for pico_ecs 3 0.011536
+Test EntityFactory for pico_ecs - ecs::benchmarks::pico_ecs::entities::EntityFactory 3 0.0112244
+SnapECS adapter supports indexed and cached storage policies 1 0.0380601
+---

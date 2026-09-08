@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-subbuild/gaia-populate-prefix/tmp/gaia-populate-gitclone.cmake
+source_dir=C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/gaia-src
+work_dir=C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps
+repository=https://github.com/richardbiely/gaia-ecs.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

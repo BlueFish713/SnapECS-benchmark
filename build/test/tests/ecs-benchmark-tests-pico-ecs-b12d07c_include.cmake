@@ -1,0 +1,5 @@
+if(EXISTS "C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/ecs-benchmark-tests-pico-ecs-b12d07c_tests.cmake")
+  include("C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/ecs-benchmark-tests-pico-ecs-b12d07c_tests.cmake")
+else()
+  add_test(ecs-benchmark-tests-pico-ecs_NOT_BUILT-b12d07c ecs-benchmark-tests-pico-ecs_NOT_BUILT-b12d07c)
+endif()

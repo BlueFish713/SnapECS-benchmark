@@ -1,0 +1,8 @@
+[0831/192157.427:WARNING:resource_bundle.cc(405)] locale_file_path.empty() for locale 
+[0831/192157.730:WARNING:headless_browser_main_parts.cc(83)] Cannot create Pref Service with no user data dir.
+[0831/192157.795:WARNING:resource_bundle.cc(405)] locale_file_path.empty() for locale 
+[0831/192157.798:WARNING:resource_bundle.cc(405)] locale_file_path.empty() for locale 
+[0831/192157.805:WARNING:resource_bundle.cc(405)] locale_file_path.empty() for locale 
+[0831/192157.818:ERROR:gpu_init.cc(430)] Passthrough is not supported, GL is swiftshader
+[0831/192200.634:ERROR:kaleido.cc(155)] Failed to find, or open, local file at ./js/kaleido_scopes.js with working directory C:\dev\Workspace\Cpp\ecs_benchmark2
+

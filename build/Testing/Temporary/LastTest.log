@@ -1,0 +1,103 @@
+Start testing: Sep 01 14:16 대한민국 표준시
+----------------------------------------------------------
+6/19 Testing: SnapECS adapter supports indexed and cached storage policies
+6/19 Test: SnapECS adapter supports indexed and cached storage policies
+Command: "C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests.exe" "SnapECS adapter supports indexed and cached storage policies"
+Directory: C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests
+"SnapECS adapter supports indexed and cached storage policies" start time: Sep 01 14:16 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "SnapECS adapter supports indexed and cached storage policies"
+Randomness seeded to: 3253495124
+===============================================================================
+All tests passed (34 assertions in 1 test case)
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnapECS adapter supports indexed and cached storage policies" end time: Sep 01 14:16 대한민국 표준시
+"SnapECS adapter supports indexed and cached storage policies" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/19 Testing: SnapECS application updates position
+7/19 Test: SnapECS application updates position
+Command: "C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests.exe" "SnapECS application updates position"
+Directory: C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests
+"SnapECS application updates position" start time: Sep 01 14:16 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "SnapECS application updates position"
+Randomness seeded to: 787986060
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnapECS application updates position" end time: Sep 01 14:16 대한민국 표준시
+"SnapECS application updates position" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/19 Testing: SnapECS creates supported entity shapes
+8/19 Test: SnapECS creates supported entity shapes
+Command: "C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests.exe" "SnapECS creates supported entity shapes"
+Directory: C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests
+"SnapECS creates supported entity shapes" start time: Sep 01 14:16 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "SnapECS creates supported entity shapes"
+Randomness seeded to: 2927507054
+===============================================================================
+All tests passed (9 assertions in 1 test case)
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnapECS creates supported entity shapes" end time: Sep 01 14:16 대한민국 표준시
+"SnapECS creates supported entity shapes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/19 Testing: SnapECS manipulates indexed components and tags
+9/19 Test: SnapECS manipulates indexed components and tags
+Command: "C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests.exe" "SnapECS manipulates indexed components and tags"
+Directory: C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests
+"SnapECS manipulates indexed components and tags" start time: Sep 01 14:16 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "SnapECS manipulates indexed components and tags"
+Randomness seeded to: 2951339614
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnapECS manipulates indexed components and tags" end time: Sep 01 14:16 대한민국 표준시
+"SnapECS manipulates indexed components and tags" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/19 Testing: SnapECS views match one two and three components
+10/19 Test: SnapECS views match one two and three components
+Command: "C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests/Debug/ecs-benchmark-tests.exe" "SnapECS views match one two and three components"
+Directory: C:/dev/Workspace/Cpp/ecs_benchmark2/build/test/tests
+"SnapECS views match one two and three components" start time: Sep 01 14:16 대한민국 표준시
+Output:
+----------------------------------------------------------
+Filters: "SnapECS views match one two and three components"
+Randomness seeded to: 1853176451
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnapECS views match one two and three components" end time: Sep 01 14:16 대한민국 표준시
+"SnapECS views match one two and three components" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 01 14:16 대한민국 표준시

@@ -1,0 +1,62 @@
+version: 3
+
+includes:
+  utils:
+    taskfile: ../Utils.yml
+    internal: true
+
+tasks:
+  all:
+    - task: default
+    - task: entities
+    - task: extended
+
+  default:
+    - task: utils:run-benchmark-template
+      vars:
+        BENCHMARK_NAME: snapecs
+        BENCHMARK_DIR: snapecs
+        REPORT_NAME: snapecs-indexed
+    - task: utils:run-benchmark-template
+      vars:
+        BENCHMARK_NAME: snapecs-cached
+        BENCHMARK_DIR: snapecs
+        REPORT_NAME: snapecs-cached
+
+  entities:
+    - task: utils:run-benchmark-template
+      vars:
+        BENCHMARK_NAME: snapecs-entities
+        BENCHMARK_DIR: snapecs-entities
+        REPORT_NAME: snapecs-indexed-entities
+    - task: utils:run-benchmark-template
+      vars:
+        BENCHMARK_NAME: snapecs-cached-entities
+        BENCHMARK_DIR: snapecs-entities
+        REPORT_NAME: snapecs-cached-entities
+
+  extended:
+    - task: utils:run-benchmark-template
+      vars:
+        BENCHMARK_NAME: snapecs-extended
+        BENCHMARK_DIR: snapecs-extended
+        REPORT_NAME: snapecs-indexed-extended
+    - task: utils:run-benchmark-template
+      vars:
+        BENCHMARK_NAME: snapecs-cached-extended
+        BENCHMARK_DIR: snapecs-extended
+        REPORT_NAME: snapecs-cached-extended
+
+  complex:
+    - task: utils:run-benchmark-template
+      vars:
+        REPORT_NAME: snapecs-indexed-complex
+        BENCHMARK_ARGS: "--benchmark_filter=\"Complex\""
+        BENCHMARK_NAME: snapecs-extended
+        BENCHMARK_DIR: snapecs-extended
+    - task: utils:run-benchmark-template
+      vars:
+        REPORT_NAME: snapecs-cached-complex
+        BENCHMARK_ARGS: "--benchmark_filter=\"Complex\""
+        BENCHMARK_NAME: snapecs-cached-extended
+        BENCHMARK_DIR: snapecs-extended

@@ -1,0 +1,59 @@
+# Results
+
+{{#summary}}
+## TL;DR Results
+
+![{{figure_img_alt}}]({{figure_img_src}})
+
+_Graph shows cost per entity, tables shows total cost. lower is faster._
+
+{{small_table}}
+
+{{table}}
+
+{{/summary}}
+
+
+## Benchmarks
+{{#results}}
+
+### {{header}}
+
+![{{figure_img_alt}}]({{figure_img_src}})
+
+_Graph shows cost per entity, tables shows total cost. lower is faster._
+
+{{small_table}}
+
+{{table}}
+
+{{/results}}
+
+
+
+
+### Candidates
+
+{{#candidates}}
+#### {{name}} {{#author}}by {{author}} {{/author}}
+
+{{#description}}
+> {{& .}}
+{{/description}}
+
+{{#version}}
+Version: {{version}}
+{{/version}}
+
+{{/candidates}}
+
+
+
+{{#environment}}
+### Environment
+
+- **OS:** {{os}}
+- **CPU:** {{cpu}}
+- **RAM:** {{ram}}
+{{/environment}}
+

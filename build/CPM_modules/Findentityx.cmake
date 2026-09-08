@@ -1,0 +1,3 @@
+include("C:/dev/Workspace/Cpp/ecs_benchmark2/build/cmake/CPM_0.40.2.cmake")
+CPMAddPackage("NAME;entityx;VERSION;1.1.2;GITHUB_REPOSITORY;alecthomas/entityx;GIT_TAG;master;OPTIONS;ENTITYX_DT_TYPE float;ENTITYX_MAX_COMPONENTS 64;ENTITYX_BUILD_SHARED OFF;ENTITYX_RUN_BENCHMARKS OFF;ENTITYX_BUILD_TESTING OFF")
+set(entityx_FOUND TRUE)

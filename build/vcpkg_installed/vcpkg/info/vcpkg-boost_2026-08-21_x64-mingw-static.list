@@ -1,0 +1,8 @@
+x64-mingw-static/
+x64-mingw-static/share/
+x64-mingw-static/share/vcpkg-boost/
+x64-mingw-static/share/vcpkg-boost/boost-install.cmake
+x64-mingw-static/share/vcpkg-boost/copyright
+x64-mingw-static/share/vcpkg-boost/vcpkg-port-config.cmake
+x64-mingw-static/share/vcpkg-boost/vcpkg.spdx.json
+x64-mingw-static/share/vcpkg-boost/vcpkg_abi_info.txt

@@ -1,0 +1,131 @@
+Package: vcpkg-cmake-config
+Version: 2026-07-21
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 162d6f730e9e1ec95c96b928d534918d11838a36ab3f6f588fd2214aa807072a
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2025-08-07
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 03103a794f9287eba3706d592b5e623999b774436028ff4ec19d89907654c6bd
+Status: install ok installed
+
+Package: benchmark
+Version: 1.9.5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: ed29f402cb5071c582dff83109bbb29c3059f524e102db327fcbe1413a80aa9b
+Description: A library to benchmark code snippets, similar to unit tests.
+Status: install ok installed
+
+Package: vcpkg-boost
+Version: 2026-08-21
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: cab0338b633e8f648e481d43e89e38ba8c4b7f12d1ada287bba8727be4503ef1
+Status: install ok installed
+
+Package: boost-uninstall
+Version: 1.92.0
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 740e32702274ecca0a43fe8d72069b065fde21abb067516458ffbc5573cb174c
+Description: Internal vcpkg port used to uninstall Boost
+Status: install ok installed
+
+Package: boost-cmake
+Version: 1.92.0
+Depends: boost-uninstall, vcpkg-boost
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: e031c7b7711836c0e59a0a020d21891b5e53c42e8d7ec95bf6901a4d4e14c7c1
+Description: Boost cmake module
+Status: install ok installed
+
+Package: boost-headers
+Version: 1.92.0
+Depends: boost-cmake
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: dd8bdd2634dd312503ce6a6814790a37b25633d23c387671ab4f0b0ad3c1c7fd
+Description: Boost headers module
+Status: install ok installed
+
+Package: boost-config
+Version: 1.92.0
+Depends: boost-cmake, boost-headers
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: a360bdfc9546a3f5f326a7eab107267d7a1b6487c1574e735ef01df06b616e36
+Description: Boost config module
+Status: install ok installed
+
+Package: boost-mp11
+Version: 1.92.0
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 7693b80a297fa2c729f8f3e35a3cac25ec06a46bc8b9e0736b9f58a91a4da648
+Description: Boost mp11 module
+Status: install ok installed
+
+Package: catch2
+Version: 3.16.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: d864b333bf5bbbe2d3797892cc0a7e7c1688ab58f94bd16da3c264c31d8b04f2
+Description: A modern, C++-native, test framework for unit-tests, TDD and BDD.
+Status: install ok installed
+
+Package: fmt
+Version: 12.2.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 9e34f7f541228e175b73cf96a77b42e172f4ed9be368c01bd2bed5594bbea4e2
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: gsl-lite
+Version: 1.1.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: d5adb5e39f90d757d3dba2966effe9b06836e3ca9e0b05b2e9c81390ecf89578
+Description: ISO C++ Core Guidelines Library implementation for C++98, C++11 up
+Status: install ok installed
+
+Package: gtest
+Version: 1.18.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: c25f2dae545ec9094404a45d0eb9517fbbbc0eb5cf95b9fcc0aaf73693e32397
+Description: Google Testing and Mocking Framework
+Status: install ok installed
+
+Package: magic-enum
+Version: 0.9.8
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 0c7922f006fcf0b18b3ba4cd89d1002c14082f3693c27e5a3b0377eb8e823915
+Description: Header-only C++17 library provides static reflection for enums, work with any enum type without any macro or boilerplate code.
+Status: install ok installed
+
+Package: range-v3
+Version: 0.12.0
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-static
+Multi-Arch: same
+Abi: 918a37713450ce184a9d54f35ede9177e8ced5119daba7cbbf419a071931af6a
+Description: Range library for C++14/17/20, basis for C++20's std::ranges
+Status: install ok installed
+

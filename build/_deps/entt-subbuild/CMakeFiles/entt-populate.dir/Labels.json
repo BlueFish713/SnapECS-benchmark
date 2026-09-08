@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/CMakeFiles/entt-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/CMakeFiles/entt-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/CMakeFiles/(CONFIG)/entt-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/entt-subbuild/entt-populate-prefix/src/entt-populate-stamp/(CONFIG)/entt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"entt-populate"
+		],
+		"name" : "entt-populate"
+	}
+}

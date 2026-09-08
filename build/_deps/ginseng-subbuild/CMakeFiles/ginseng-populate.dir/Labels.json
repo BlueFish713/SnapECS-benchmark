@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/CMakeFiles/ginseng-populate-Debug"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/CMakeFiles/ginseng-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/CMakeFiles/(CONFIG)/ginseng-populate-complete.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-build.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-configure.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-download.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-install.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-patch.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-test.rule"
+		},
+		{
+			"file" : "C:/dev/Workspace/Cpp/ecs_benchmark2/build/_deps/ginseng-subbuild/ginseng-populate-prefix/src/ginseng-populate-stamp/(CONFIG)/ginseng-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ginseng-populate"
+		],
+		"name" : "ginseng-populate"
+	}
+}

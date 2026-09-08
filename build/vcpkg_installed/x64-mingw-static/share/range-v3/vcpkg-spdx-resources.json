@@ -1,0 +1,19 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "e58030bc7c281e90298025dc21fed9bdabda358cd847b59e5b58feb3e0b93fcf6398e3b8e2912e45deeed67f454c08d4fc4df7f8d0dc378b437612f15c0832fe"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "git+https://github.com/ericniebler/range-v3@a81477931a8aa2ad025c6bda0609f38e09e4d7ec",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "ericniebler/range-v3"
+}
+  ]
+}
